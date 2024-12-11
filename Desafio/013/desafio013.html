@@ -20,9 +20,22 @@
         }
         
         thead {
-            background-color: lightgray;
+            background-color: gray;
+            color: white;
         }
         
+        tfoot {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
+        .cor {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
         caption {
             font-size: 1em;
             font-weight: bolder;
@@ -38,12 +51,61 @@
             <th rowspan="2" scope="col">Discipina</th>
             <th colspan="2" scope="colgroup">Nota </th>
             <th rowspan="2" scope="col">Média</th>
-            </tr>
             <tr>
                 <th scope="col">Nota 1</th>
                 <th scope="col">Nota 2</th>
             </tr>
         </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td>O.O</td>
+                <td>O.O</td>
+                <td>O.O</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="cor">
+                <th colspan="4">Média Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="cor">
+            <th colspan="4">Média Humanas</th>
+            <td>0.0</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
