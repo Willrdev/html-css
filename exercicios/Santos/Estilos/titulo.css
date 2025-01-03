@@ -43,11 +43,6 @@ nav a {
     text-decoration: none;
 }
 
-.escudo {
-    width: 100%;
-    box-shadow: 0px 8px 8px #FFD700;
-}
-
 .logo {
     width: 100px;
 }
@@ -57,15 +52,13 @@ h1 {
     text-align: center;
     padding: 100px;
     font-size: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     color: #FFD700;
 }
 
 h2 {
     font-family: "Rochester", serif;
     padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
     font-size: 40px;
     color: #FFD700;
 }
@@ -73,12 +66,89 @@ h2 {
 p {
     font-family: "Kite One", serif;
     padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
     padding-top: 30px;
     font-size: 20px;
     color: white;
-    padding-bottom: 60px;
+}
+
+.right {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.paragrafo {
+    text-align: right;
+    padding-right: 100px; 
+}
+
+.brasileiro {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 30cm;
+}
+
+.paulista {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 3cm;
+}
+
+.rio {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 30cm;
+}
+
+.copa {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 3cm;
+}
+
+.libertadores {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 30cm;
+}
+
+.mundial {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 3cm;
+}
+
+.recopa {
+    box-shadow: 0px 8px 8px #FFD700;
+    border-radius: 20px;
+    width: 600px;
+    display: block;
+    position: relative;
+    top: -7cm;
+    left: 30cm;
 }
 
 footer {
